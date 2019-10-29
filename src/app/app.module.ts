@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { StockInventoryModule } from './stock-inventory/stock-inventory.module';
 
 @NgModule({
   declarations: [
@@ -11,8 +10,7 @@ import { StockInventoryModule } from './stock-inventory/stock-inventory.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    StockInventoryModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
