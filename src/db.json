@@ -1,0 +1,7 @@
+{
+    "products" : [
+        {"id": 1, "price": 200, "name": "allpeWatch"},
+        {"id": 2, "price": 2200, "name": "McBook"},
+        {"id": 3, "price": 1200, "name": "iPhone"}
+    ]
+}

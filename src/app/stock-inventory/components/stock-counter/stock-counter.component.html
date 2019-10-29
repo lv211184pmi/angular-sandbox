@@ -1,0 +1,22 @@
+<div [class.focused]="focus">
+    <div>
+        <div tabindex="0"
+             (keydown)="onKeydown($event)"
+             (blur)="onBlur($event)"
+             (focus)="onFocus($event)">
+            <p>{{ value }}</p>
+            <div>
+                <button type="button"
+                        (click)="increment()"
+                        [disabled]="value===max">
+                    +
+                </button>
+                <button type="button"
+                        (click)="decrement()"
+                        [disabled]="value===min">
+                    -
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
